@@ -699,6 +699,10 @@ module.exports = {
                                 path: "/documentation/platform-assurance/tutorials/custom-validation.md"
                             },
                             {
+                                title: "Optimize setup",
+                                path: "/documentation/platform-assurance/tutorials/optimize-configuration-view.md"
+                            },
+                            {
                                 title: "Places Service",
                                 path: "/documentation/platform-assurance/tutorials/places-service"
                             },
