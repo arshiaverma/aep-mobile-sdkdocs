@@ -2,7 +2,7 @@ import Tabs from './tabs/index.md'
 
 # Identity
 
-The Identity extension is bundled with [Mobile Core](../index.md) and enables your app with the Experience Cloud ID (ECID). This service helps with the synchronization of Adobe and other customer identifiers.
+The Identity extension enables your app with the Experience Cloud ID (ECID). This service helps with the synchronization of Adobe and other customer identifiers.
 
 <InlineAlert variant="warning" slots="text"/>
 
@@ -12,134 +12,56 @@ To get started with Identity, complete the following steps:
 
 1. Add the **Identity** extension to your app.
 2. Implement the SDK APIs to complete the following tasks:
-   * Update customer IDs.
-   * Append Adobe visitor data to a URL string.
-   * Return customer IDs.
-   * Retrieve Experience Cloud IDs.
-   * Set advertising IDs.
-   * Set the device notification for push notifications.
+   - Update customer IDs.
+   - Append Adobe visitor data to a URL string.
+   - Return customer IDs.
+   - Retrieve Experience Cloud IDs.
+   - Set advertising IDs.
+   - Set the device notification for push notifications.
 
 ## Add the Identity extension to your app
 
-<TabsBlock orientation="horizontal" slots="heading, content" repeat="8"/>
+<TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
 Android
 
 <Tabs query="platform=android&task=add"/>
 
-iOS (AEP 3.x)
+iOS
 
-<Tabs query="platform=ios-aep&task=add"/>
+<Tabs query="platform=ios&task=add"/>
 
-iOS (ACP 2.x)
-
-<Tabs query="platform=ios-acp&task=add"/>
-
-React Native
-
+<!--- React Native
 <Tabs query="platform=react-native&task=add"/>
-
 Flutter
-
-<Tabs query="platform=flutter&task=add"/>
-
-Cordova
-
-<Tabs query="platform=cordova&task=add"/>
-
-Unity
-
-<Tabs query="platform=unity&task=add"/>
-
-Xamarin
-
-<Tabs query="platform=xamarin&task=add"/>
+<Tabs query="platform=flutter&task=add"/> --->
 
 ## Register the Identity extension
 
-The `registerExtension()` API registers the Identity extension with the Mobile Core extension. This API allows the extension to send and receive events to and from the Mobile SDK.
+The `MobileCore.registerExtensions()` API can be used to register the Identity extension with the Mobile Core extension. This API allows the extension to send and receive events to and from the Mobile SDK.
 
 To register the Identity extension, use the following code sample:
 
-<TabsBlock orientation="horizontal" slots="heading, content" repeat="8"/>
+<TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
 Android
 
 <Tabs query="platform=android&task=register"/>
 
-iOS (AEP 3.x)
+iOS
 
-<Tabs query="platform=ios-aep&task=register"/>
+<Tabs query="platform=ios&task=register"/>
 
-iOS (ACP 2.x)
-
-<Tabs query="platform=ios-acp&task=register"/>
-
-React Native
-
+<!--- React Native
 <Tabs query="platform=react-native&task=register"/>
-
 Flutter
-
-<Tabs query="platform=flutter&task=register"/>
-
-Cordova
-
-<Tabs query="platform=cordova&task=register"/>
-
-Unity
-
-<Tabs query="platform=unity&task=register"/>
-
-Xamarin
-
-<Tabs query="platform=xamarin&task=register"/>
+<Tabs query="platform=flutter&task=register"/> --->
 
 <InlineAlert variant="info" slots="text"/>
 
 Previously known as MCID, the Experience Cloud ID (ECID) is a 38 character ID that uniquely identifies each visitor in the Adobe Experience Platform.
 
 After the configuration is complete, an ECID is generated and, where applicable, is included on all Analytics and Audience Manager hits. Other IDs, such as custom and automatically-generated IDs, continue to be sent with each hit.
-
-## Version of the Identity extension
-
-The `extensionVersion()` API returns the version of the Identity extension that is registered with the Mobile Core extension.
-
-To get the version of the Identity extension, use the following code sample:
-
-<TabsBlock orientation="horizontal" slots="heading, content" repeat="8"/>
-
-Android
-
-<Tabs query="platform=android&task=version"/>
-
-iOS (AEP 3.x)
-
-<Tabs query="platform=ios-aep&task=version"/>
-
-iOS (ACP 2.x)
-
-<Tabs query="platform=ios-acp&task=version"/>
-
-React Native
-
-<Tabs query="platform=react-native&task=version"/>
-
-Flutter
-
-<Tabs query="platform=flutter&task=version"/>
-
-Cordova
-
-<Tabs query="platform=cordova&task=version"/>
-
-Unity
-
-<Tabs query="platform=unity&task=version"/>
-
-Xamarin
-
-<Tabs query="platform=xamarin&task=version"/>
 
 ## Visitor tracking between an app and the mobile web
 
@@ -165,39 +87,22 @@ To use the same visitor ID in the app and mobile web and pass the visitor ID to 
 
 ### Implementing visitor tracking between an app and the mobile web
 
-<TabsBlock orientation="horizontal" slots="heading, content" repeat="8"/>
+<TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
 Android
 
 <Tabs query="platform=android&task=implement"/>
 
-iOS (AEP 3.x)
+iOS
 
-<Tabs query="platform=ios-aep&task=implement"/>
+<Tabs query="platform=ios&task=implement"/>
 
-iOS (ACP 2.x)
-
-<Tabs query="platform=ios-acp&task=implement"/>
-
-React Native
+<!--- React Native
 
 <Tabs query="platform=react-native&task=implement"/>
 
 Flutter
 
-<Tabs query="platform=flutter&task=implement"/>
-
-Cordova
-
-<Tabs query="platform=cordova&task=implement"/>
-
-Unity
-
-<Tabs query="platform=unity&task=implement"/>
-
-Xamarin
-
-<Tabs query="platform=xamarin&task=implement"/>
+<Tabs query="platform=flutter&task=implement"/> --->
 
 The ID service code on the destination domain extracts the ECID from the URL instead of sending a request to Adobe for a new ID. The ID service code on the destination page uses this ECID to track the visitor. On hits from the mobile web content, verify that the `mid` parameter exists on each hit, and that this value matches the `mid`value that is being sent by the app code.
-

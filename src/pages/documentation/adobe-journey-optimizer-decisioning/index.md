@@ -40,7 +40,7 @@ On [Experience Platform Data Collection](https://experience.adobe.com/#/data-col
 
 <InlineAlert variant="warning" slots="text"/>
 
-For the AEPOptimize APIs to work properly, you need to integrate Mobile Core and Edge extensions in your mobile app. For more details see, documentation on [Mobile Core](../mobile-core/index.md) and [Adobe Experience Platform Edge Network](../edge-network-extensions/index.md).
+For the AEPOptimize APIs to work properly, you need to integrate Mobile Core and Edge extensions in your mobile app. For more details see, documentation on [Mobile Core](../mobile-core/index.md) and [Adobe Experience Platform Edge Network](../edge-network/index.md).
 
 ### Install the Experience Platform Mobile SDK
 
@@ -50,7 +50,7 @@ Android
 
 <Tabs query="platform=android&task=install"/>
 
-iOS (AEP 3.x)
+iOS
 
 <Tabs query="platform=ios&task=install"/>
 
@@ -62,7 +62,7 @@ Android
 
 <Tabs query="platform=android&task=register"/>
 
-iOS (AEP 3.x)
+iOS
 
 <Tabs query="platform=ios&task=register"/>
 
@@ -82,7 +82,7 @@ Android
 
 <Tabs query="platform=android&task=decisionscope"/>
 
-iOS (AEP 3.x)
+iOS
 
 <Tabs query="platform=ios&task=decisionscope"/>
 
@@ -94,7 +94,7 @@ Android
 
 <Tabs query="platform=android&task=encodedscope"/>
 
-iOS (AEP 3.x)
+iOS
 
 <Tabs query="platform=ios&task=encodedscope"/>
 
@@ -110,7 +110,7 @@ Android
 
 <Tabs query="platform=android&task=target-location"/>
 
-iOS (AEP 3.x)
+iOS
 
 <Tabs query="platform=ios&task=target-location"/>
 
@@ -124,7 +124,7 @@ Android
 
 <Tabs query="platform=android&task=target-parameters"/>
 
-iOS (AEP 3.x)
+iOS
 
 <Tabs query="platform=ios&task=target-parameters"/>
 
@@ -147,7 +147,7 @@ Android
 
 <Tabs query="platform=android&task=target-tpid"/>
 
-iOS (AEP 3.x)
+iOS
 
 <Tabs query="platform=ios&task=target-tpid"/>
 
@@ -247,7 +247,7 @@ Android
 
 <Tabs query="platform=android&task=proposition-tracking-offer"/>
 
-iOS (AEP 3.x)
+iOS
 
 <Tabs query="platform=ios&task=proposition-tracking-offer"/>
 
@@ -259,7 +259,7 @@ Android
 
 <Tabs query="platform=android&task=send-event-offer"/>
 
-iOS (AEP 3.x)
+iOS
 
 <Tabs query="platform=ios&task=send-event-offer"/>
 
@@ -273,11 +273,11 @@ Android
 
 <Tabs query="platform=android&task=proposition-tracking-edge"/>
 
-iOS (AEP 3.x)
+iOS
 
 <Tabs query="platform=ios&task=proposition-tracking-edge"/>
 
-The Edge `sendEvent` API can then be used to send this tracking XDM data along with any additional XDM and freeform data to the Experience Edge network. Additionally, an override dataset can also be specified for tracking data. For more details, see [Edge - sendEvent API](../edge-network-extensions/api-reference.md#sendevent).
+The Edge `sendEvent` API can then be used to send this tracking XDM data along with any additional XDM and freeform data to the Experience Edge network. Additionally, an override dataset can also be specified for tracking data. For more details, see [Edge - sendEvent API](../edge-network/api-reference.md#sendevent).
 
 <TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
@@ -285,7 +285,7 @@ Android
 
 <Tabs query="platform=android&task=send-event-edge"/>
 
-iOS (AEP 3.x)
+iOS
 
 <Tabs query="platform=ios&task=send-event-edge"/>
 

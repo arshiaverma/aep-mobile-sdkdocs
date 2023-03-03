@@ -1,6 +1,6 @@
 # iOS App Extension implementation
 
-You can use supported Adobe Experience Platform mobile extensions in your App Extensions to collect usage data. The supported Platform mobile extensions are listed [here](../current-sdk-versions.md#ios--swift).
+You can use supported Adobe Experience Platform mobile extensions in your App Extensions to collect usage data. The supported Platform mobile extensions are listed [here](../current-sdk-versions.md#ios).
 
 ## Prerequisites
 
@@ -39,9 +39,9 @@ This tutorial uses the `ShareExtension` as the example.
 
 <InlineAlert variant="info" slots="text"/>
 
-Depending on the type of App Extension you are using, the registration and usage of the SDK will look different. Make sure you understand the lifecycle of your App Extension in order to know where best to register the SDK and call lifecycle start/pause. 
+Depending on the type of App Extension you are using, the registration and usage of the SDK will look different. Make sure you understand the lifecycle of your App Extension in order to know where best to register the SDK and call lifecycle start/pause.
 
-1. Make sure that your `ShareViewController` has the proper imports for the SDK. 
+1. Make sure that your `ShareViewController` has the proper imports for the SDK.
 
 ```swift
 import UIKit
@@ -85,4 +85,3 @@ Please note that in order to register AEPAnalytics, you must use the `AnalyticsA
 ```
 
 You are now ready to use the SDK in your App Extension.
-

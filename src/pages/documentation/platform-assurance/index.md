@@ -2,7 +2,21 @@
 
 Adobe Experience Platform Assurance is a product from [Adobe Experience Cloud](https://www.adobe.com/experience-cloud.html) to help you inspect, proof, simulate, and validate how you collect data or serve experiences in your mobile app.
 
-We're building Assurance to do the heavy lifting of getting your app implementation right, while you focus on creating engaging experiences.
+<InlineAlert variant="success" slots="header, text"/>
+
+Project Griffon is now Assurance
+
+We're pleased to announce that Project Griffon is now generally available to all Adobe Experience Cloud customers as Assurance. To learn more about this transition, please read the [user access](./get-access.md) guide.
+
+## General Availability
+
+Starting October 15th, 2022 - Project Griffon will be generally available to all Adobe Experience Cloud customers as Assurance.
+
+### What's changing?
+
+On October 15th - access to Assurance / Project Griffon will be managed through Admin Console. Follow [this link](./get-access.md) to ensure continued, uninterrupted access.
+
+No other changes or disruption are expected to existing Assurance / Project Griffon integrations, sessions, and events. Assurance may be continued to be accessed via [https://griffon.adobe.com](https://griffon.adobe.com) **or** you may use (and bookmark) [https://experience.adobe.com/assurance](https://experience.adobe.com/assurance).
 
 ## What can Assurance do for you?
 
@@ -52,7 +66,7 @@ Assurance has the following security measures in place:
 
 * AEP Assurance and Assurance web UI have a secure, PIN-based handshake for a connection. The user has to explicitly create a handshake, which prevents "accidental" Assurance connections to be created by an end-user.
 * Only connections between AEP Assurance and the Assurance web UI belonging to the same Adobe Experience Cloud Organization ID are supported.
-* Adobe Experience Platform Mobile SDKs events are transported over HTTPs. 
+* Adobe Experience Platform Mobile SDKs events are transported over HTTPs.
 * Assurance and Adobe Experience Platform Mobile SDKs use TLS 1.2
 * Assurance sessions are deleted after 30 days.
 * Assurance session data is encrypted at rest, following storage best practices.

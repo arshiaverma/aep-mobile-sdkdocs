@@ -12,7 +12,7 @@ The following documentation details how to use the extension and required config
 2. [Update your app's Datastream](#update-datastream-with-profile-dataset) in [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection/)
 3. Integrate with following extensions:
    * [Mobile Core](../mobile-core/index.md)
-   * [Adobe Experience Platform Edge Network](../edge-network-extensions/index.md)
+   * [Adobe Experience Platform Edge Network](../edge-network/index.md)
    * [Identity for Edge Network](../identity-for-edge-network/index.md)
 
 ### Update Datastream with a Profile dataset
@@ -46,53 +46,41 @@ Follow these steps to integrate the Adobe Journey Optimizer extension.
 
 #### Import the extension
 
-<TabsBlock orientation="horizontal" slots="heading, content" repeat="3"/>
+<TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
 Android
 
 <Tabs query="platform=android&task=import"/>
 
-iOS (AEP 3.x)
+iOS
 
-<Tabs query="platform=ios-aep&task=import"/>
-
-iOS (ACP 2.x)
-
-<Tabs query="platform=ios-acp&task=import"/>
+<Tabs query="platform=ios&task=import"/>
 
 #### Register the extension with Mobile Core
 
-<TabsBlock orientation="horizontal" slots="heading, content" repeat="3"/>
+<TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
 Android
 
 <Tabs query="platform=android&task=register"/>
 
-iOS (AEP 3.x)
+iOS
 
-<Tabs query="platform=ios-aep&task=register"/>
-
-iOS (ACP 2.x)
-
-<Tabs query="platform=ios-acp&task=register"/>
+<Tabs query="platform=ios&task=register"/>
 
 #### Sync the user push token with Adobe
 
 After importing and registering the extensions with your application, you need to sync the push token with Adobe Experience Platform, by using the setPushIdentifier API.
 
-<TabsBlock orientation="horizontal" slots="heading, content" repeat="3"/>
+<TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
 Android
 
 <Tabs query="platform=android&task=sync"/>
 
-iOS (AEP 3.x)
+iOS
 
-<Tabs query="platform=ios-aep&task=sync"/>
-
-iOS (ACP 2.x)
-
-<Tabs query="platform=ios-acp&task=sync"/>
+<Tabs query="platform=ios&task=sync"/>
 
 ## Next steps
 

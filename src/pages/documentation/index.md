@@ -1,35 +1,24 @@
 ---
 title: Mobile SDK overview
 description: This is the overview page of Mobile SDK
-contributors:
-  - https://github.com/icaraps 
 ---
 
 # Mobile SDK documentation
 
-<InlineAlert variant="success" slots="header, text"/>
-
-Good to go for iOS 15
-
-Adobe Experience Platform Mobile SDKs have been functionally tested on iOS 15 release candidate versions. Please make sure you use [current SDK versions](#) to ensure compatibility.
-
-<InlineAlert variant="info" slots="header, text"/>
-
-Are you interested in Kotlin?
-
-The Adobe Mobile SDK team is looking for feedback on better supporting customers that are currently or planning to use Kotlin in their mobile applications. If you're interested in a Kotlin-based version of the Adobe Experience Platform Mobile SDK, please fill out the [following survey](https://forms.office.com/r/5E5d7pJivG).
-
-<InlineAlert variant="info" slots="header, text"/>
-
-The Swift versions of the iOS SDKs have been released! 
-
-For more information on the Swift versions, including available Swift extensions and reference information, please read the [current SDK versions document](#).<br/><br/>Additionally, the Swift iOS SDKs are open source. You can learn more about this move to Swift and open source in the [Adobe Tech Blog](https://medium.com/adobetech/adobe-experience-platform-mobile-sdks-move-to-swift-for-ios-6aa67b67b4d4).
+Welcome to the home of Adobe Experience Platform Mobile SDK documentation.
 
 <InlineAlert variant="success" slots="header, text"/>
 
-Support for Adobe Experience Platform Edge Network
+Mobile Core 2.x for Android and the compatible extensions are here!
 
-The Adobe Experience Platform Mobile SDKs support data collection and other features via the Edge Network. <br/><br/> The new [Experience Platform Edge Network](#) extension is now available for Android and iOS. This extension, alongside many others, can help you take advantage of functionality provided by [Adobe Journey Optimizer](https://business.adobe.com/products/journey-optimizer/adobe-journey-optimizer.html) and [Adobe Experience Platform](https://business.adobe.com/products/experience-platform/adobe-experience-platform.html).
+A new major version of the Mobile Core SDK for Android has been released along with updates to other extensions to take advantage of the new features and improvements.
+For more information, check out the [release notes](./release-notes/#february-23-2023).
+
+<InlineAlert variant="success" slots="header, text"/>
+
+Good to go for iOS 16 and Android 13
+
+The latest versions of the Adobe Experience Platform SDK for Google Android and Apple iOS (Swift and Objective-C) are tested for compatibility with release verisons of Apple iOS 16 and Google Android 13. See [Current SDK Versions](./current-sdk-versions.md) to find our latest SDK versions or [release notes](./release-notes/index.md) for information on changes and updates.
 
 ## Bring the Adobe Experience Cloud to your apps
 
@@ -37,29 +26,16 @@ The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud so
 
 The SDK is comprised of the Mobile Core and a series of modular Adobe Experience Cloud solutions or third-party vendor extensions that depend on the Mobile Core. Extensions interact with the Mobile Core to provide features specific to the solution or service they represent.
 
-Experience Platform Mobile SDKs are available for Android, iOS, and a [variety](#) of cross-platform development frameworks. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations.
-
-<Media slots="video"/>
-
-<https://www.youtube.com/watch?v=p_TZ6_z2D0E>
+Experience Platform Mobile SDKs are available for Android, iOS, and a [variety](#supported-platforms) of cross-platform development frameworks. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations.
 
 ## Supported platforms
 
 The Adobe Experience Platform Mobile SDK supports the following platforms:
 
-- [Android](#)
-- [iOS - Swift](#)
-- [iOS - Objective-C](#)
-- [Cordova](#)
-- [React Native](#)
-- [Flutter (beta)](#)
-- [Unity](#)
-- [WeChat Mini Programs](#)
-- [Xamarin](#)
-
-## Get help
-
-If you have any questions about the SDK, please visit the [SDK community forum](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-sdks/ct-p/platform-sdk). If you need immediate assistance, please contact [Adobe Experience Cloud customer care](https://experienceleague.adobe.com/?support-solution=General#support).
+- [Android](./current-sdk-versions.md#android)
+- [iOS](./current-sdk-versions.md#ios)
+- [React Native](./current-sdk-versions.md#react-native)
+- [Flutter](./current-sdk-versions.md#flutter)
 
 ## Resources
 
@@ -67,3 +43,9 @@ If you have any questions about the SDK, please visit the [SDK community forum](
 * [Getting the Experience Platform SDKs](./getting-started/get-the-sdk.md)
 * [Frequently asked questions](./faq.md)
 * [Why use the Adobe Experience Platform Mobile SDKs](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
+
+## Get Help
+
+If you have any questions about the SDK, please visit the [SDK community forum](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform/ct-p/adobe-experience-platform-community).
+
+If you need immediate assistance, please contact [Adobe Experience Cloud customer care](https://experienceleague.adobe.com/?support-solution=General#support).

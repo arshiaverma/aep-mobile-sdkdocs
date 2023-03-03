@@ -22,35 +22,27 @@ The SDK extension listens for events that contain GPS coordinates and geofence r
 
 ### Download and import the Places extension
 
-<TabsBlock orientation="horizontal" slots="heading, content" repeat="3"/>
+<TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
 Android
 
 <Tabs query="platform=android&task=download"/>
 
-iOS (AEP 3.x)
+iOS
 
-<Tabs query="platform=ios-aep&task=download"/>
-
-iOS (ACP 2.x)
-
-<Tabs query="platform=ios-acp&task=download"/>
+<Tabs query="platform=ios&task=download"/>
 
 ### Register the Places extension with Mobile Core
 
-<TabsBlock orientation="horizontal" slots="heading, content" repeat="3"/>
+<TabsBlock orientation="horizontal" slots="heading, content" repeat="2"/>
 
 Android
 
 <Tabs query="platform=android&task=register"/>
 
-iOS (AEP 3.x)
+iOS
 
-<Tabs query="platform=ios-aep&task=register"/>
-
-iOS (ACP 2.x)
-
-<Tabs query="platform=ios-acp&task=register"/>
+<Tabs query="platform=ios&task=register"/>
 
 ## Additional Location Service resources
 
@@ -59,11 +51,6 @@ For more information about implementing and using Adobe Experience Platform Loca
 * [Release notes](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=en)
 * [Overview](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en)
 * [Places SDK implementation](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=en)
-* [Places Monitor SDK implementation](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.html?lang=en)
 * [Cordova Places SDK GitHub readme](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)
-* [Cordova Places Monitor SDK GitHub readme](https://github.com/adobe/cordova-acpplaces-monitor/blob/master/README.md)
 * [React Native Places SDK GitHub readme](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)
-* [React Native Places Monitor SDK GitHub readme](https://github.com/adobe/react-native-acpplaces-monitor/blob/master/README.md)
-* [Flutter Places SDK GitHub readme](https://github.com/adobe/flutter-acpplaces/blob/master/README.md)
-* [Flutter Places Monitor SDK GitHub readme](https://github.com/adobe/flutter_acpplaces_monitor/blob/master/README.md)
 * [Xamarin Places SDK GitHub readme](https://github.com/adobe/xamarin-acpplaces/blob/master/README.md)
